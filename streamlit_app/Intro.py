@@ -27,7 +27,7 @@ def main():
         """
         ## Bem-vindo ao Painel de Inteligência do Mercado Bancário Brasileiro
 
-        Explore análises de mercado, crédito, benchmarks financeiros e insights sobre o setor bancário brasileiro cobrindo **+ mil** instituições financeiras reguladas pelo Bacen.
+        Explore análises de mercado, crédito, benchmarks financeiros e insights sobre o setor bancário brasileiro cobrindo **+2 mil** instituições financeiras reguladas pelo Bacen.
 
         ---
 
