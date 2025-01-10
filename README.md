@@ -1,7 +1,7 @@
 # 🏦 Banco Insight - Project Overview
 
 Objective
-A simple yet powerful web application that generates market intelligence and benchmarks for the Brazilian banking sector, covering over 4,000 financial institutions regulated by the Central Bank of Brazil (BACEN). with quarterly data updates covering +12 years.
+A simple yet powerful web application that generates market intelligence and benchmarks for the Brazilian banking sector, covering over 2,000 financial institutions regulated by the Central Bank of Brazil (BACEN). with quarterly data updates covering +12 years.
 
 
 ## 🚀 Features
