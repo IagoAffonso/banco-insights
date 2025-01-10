@@ -1,0 +1,77 @@
+metric_name
+Ativo Total
+Captações
+Carteira de Crédito Classificada
+"Despesas Administrativas 
+(d4)"
+"Despesas Tributárias 
+(d5)"
+"Despesas de Captação 
+(b1)"
+"Despesas de Intermediação Financeira 
+(b) = (b1) + (b2) + (b3) + (b4) + (b5)"
+"Despesas de Obrigações por Empréstimos e Repasses 
+(b2)"
+"Despesas de Operações de Arrendamento Mercantil 
+(b3)"
+"Despesas de Pessoal 
+(d3)"
+"Imposto de Renda e Contribuição Social 
+(h)"
+"Juros Sobre Capital Próprio 
+(k)"
+"Juros Sobre Capital Social de Cooperativas 
+(k)"
+Lucro Líquido
+"Lucro Líquido 
+(j) = (g) + (h) + (i)"
+"Outras Despesas Operacionais 
+(d8)"
+Outras Receitas Intermediação
+"Outras Receitas Operacionais 
+(d7)"
+"Outras Receitas/Despesas  Operacionais 
+(d) = (d1) + (d2) + (d3) + (d4) + (d5) + (d6) + (d7) + (d8)"
+"Participação nos Lucros 
+(i)"
+Passivo Circulante e Exigível a Longo Prazo e Resultados de Exercícios Futuros
+Patrimônio Líquido
+Patrimônio de Referência para Comparação com o RWA
+Quantidade de clientes com operações ativas
+ROA
+ROE
+Receita Operacional
+"Receitas de Intermediação Financeira 
+(a) = (a1) + (a2) + (a3) + (a4) + (a5) + (a6)"
+"Rendas de Aplicações Compulsórias 
+(a6)"
+"Rendas de Operações com Instrumentos Financeiros Derivativos 
+(a4)"
+"Rendas de Operações com TVM 
+(a3)"
+"Rendas de Operações de Arrendamento Mercantil 
+(a2)"
+"Rendas de Operações de Crédito 
+(a1)"
+"Rendas de Prestação de Serviços 
+(d1)"
+"Rendas de Tarifas Bancárias 
+(d2)"
+"Resultado Não Operacional 
+(f)"
+"Resultado Operacional 
+(e) = (c) + (d)"
+"Resultado antes da Tributação, Lucro e Participação 
+(g) = (e) + (f)"
+"Resultado de Intermediação Financeira 
+(c) = (a) + (b)"
+"Resultado de Operações de Câmbio 
+(a5)"
+"Resultado de Operações de Câmbio 
+(b4)"
+"Resultado de Participações 
+(d6)"
+"Resultado de Provisão para Créditos de Difícil Liquidação 
+(b5)"
+Índice de Basileia
+Índice de Imobilização

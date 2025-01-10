@@ -1,5 +1,8 @@
 key.json
 backup
-data
 notebooks
 fix.txt
+# Ignore specific data folder
+/data/
+# Don't ignore streamlit_app/data
+!/streamlit_app/data/
