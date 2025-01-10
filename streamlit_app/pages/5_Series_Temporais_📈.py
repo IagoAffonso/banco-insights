@@ -54,6 +54,7 @@ def main():
             "Métrica:",
             options=metrics_list,
             help="Selecione a métrica financeira para análise",
+            index=23,
             placeholder="Digite para buscar..."
         )
 
