@@ -21,13 +21,13 @@ def save_suggestion(name, email, company, message):
 
 
 def main():
-    st.title("🏦 Banco Insight 🏦")
+    st.title("Banco Insights 🏦")
 
     st.markdown(
         """
         ## Bem-vindo ao Painel de Inteligência do Mercado Bancário Brasileiro
 
-        Explore insights poderosos sobre o setor bancário brasileiro com mais de **2 mil** instituições financeiras reguladas pelo Bacen.
+        Explore análises de mercado, crédito, benchmarks financeiros e insights sobre o setor bancário brasileiro com **+4 mil** instituições financeiras reguladas pelo Bacen.
 
         ---
 
@@ -53,7 +53,7 @@ def main():
         2. **Escolha os parâmetros de análise.**
         3. **Explore os painéis interativos.**
 
-        
+
         """
     )
 
