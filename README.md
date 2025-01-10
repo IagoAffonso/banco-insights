@@ -1,94 +1,67 @@
-Project Overview
+# 🏦 Banco Insight - Project Overview
 
 Objective
-To develop a simple yet powerful web application that generates market intelligence and benchmarks for the Brazilian banking sector, offering:
-
-Interactive dashboards built on Bacen data.
-A quarterly newsletter with AI-generated insights on market trends and banking performance.
-
--------------------------------------------------------------------------------
+A simple yet powerful web application that generates market intelligence and benchmarks for the Brazilian banking sector, covering over 4,000 financial institutions regulated by the Central Bank of Brazil (BACEN). with quarterly data updates covering +12 years.
 
 
-Pipeline
+## 🚀 Features
 
-1. Data Collection
-Scripts to Fetch Data:
-Automated scripts fetch data from the Bacen API for banking institutions and financial reports.
-Data is stored as CSV files and a SQLite database for easy access and manipulation.
+### Market Intelligence Dashboards
+- 📊 **Market Share Analysis by Financial Institution**
+  - Compare different market share metrics
+  - Customizable visualization parameters
+  - Historical trend analysis
 
-2. ETL Pipeline
-Extract, Transform, and Load:
-Combine multiple raw CSV files into a consolidated dataset.
-Map CodInst values to corresponding NomeInstituicao using a JSON mapping file.
-Store the processed data in both SQLite Database and CSV formats for further analysis.
+- 💰 **Credit Segment Market Share**
+  - Analysis by credit modality
+  - Segmentation by PF (Individual) and PJ (Corporate)
+  - Market concentration metrics
 
-3. Feature Engineering
-Generate additional features and data scaling from the processed data for better insights, such as:
-Market share calculations.
-Performance benchmarks (e.g., ROE, efficiency ratios).
-Banking sector trends over time.
+- 💳 **Credit Portfolio Analysis**
+  - Detailed credit portfolio composition by institution
+  - Segment breakdown
+  - Historical evolution
 
-4. Visual Identity Mapping
-Assign unique colors to each NomeInstituicao based on the visual identity of the respective bank brands.
-This color dictionary will enhance the visualization consistency across dashboards and charts.
+- 📑 **Financial Statements Analysis**
+  - Key financial metrics
+  - Performance indicators
+  - Comparative analysis
 
-5. Dashboard Development
-Power BI Dashboard:
-Create a detailed dashboard for banking sector analysis, including:
-Market share breakdowns.
-Benchmarking against competitors.
-Histogram distributions of key metrics.
-Historical performance trends.
+- 📈 **Time Series Analysis**
+  - Historical evolution of financial and operational metrics
+  - Comparative trends between institutions
+  - Custom date range selection
 
-6. Streamlit Web Application:
-Embed the Power BI dashboard inside a Streamlit web app for broader accessibility.
-Provide interactive elements for users to explore data insights.
+### 🔄 Data Pipeline
+- Automated data collection from BACEN API
+- ETL processes for data cleaning and transformation
+- Regular updates maintaining data freshness
+- Efficient data storage and retrieval system
 
-7. Newsletter Integration
-Add a subscription field in the Streamlit web app to collect email addresses for a quarterly newsletter.
-Generate AI-driven banking insights with LLMs and human in the loop based on the dashboard and share them with subscribers.
+## 🔜 Roadmap
+- 🏗️ Sector Benchmarks (medians, quartiles, deciles)
+- 🎯 Clustering Models for Institution Segmentation
+- 🤖 Machine Learning & AI Models
+- 🤖 BancoInsightsGPT Integration
 
+## 🔒 Data Sources
+All data is sourced from public BACEN databases and processed in accordance with data protection regulations.
 
--------------------------------------------------------------------------------
+## 📊 Live Demo
+Access the live dashboard at: [WIP]
 
-Planned Features:
+### 🎯 Technical Architecture
+- FastAPI backend deployed on Google Cloud Run
+- Streamlit frontend for interactive visualizations
+- Integration with Google Cloud Storage for data management
+- Automated deployment pipeline
 
-Free Access: Offer the app as a free tool for banking industry professionals to explore market, performance and benchmarking intelligence.
+## 🛠️ Setup and Installation
 
-AI-Generated Insights: Use large language models (LLMs) to generate key takeaways and trends from the data.
-
-User Engagement: Enable newsletter subscriptions directly from the web app.
-
--------------------------------------------------------------------------------
-
-Backlog Potential Features:
-
-Clustering: Use machine learning models to cluster institutions based on their performance, portfolio and risk profiles.
-
-Simulation: Predict and simulate profitability and risk based on credit portfolio business lines of revenue and market data powered by ML.
-
-Forecasting: Use machine learning models to predict future trends and performance.
-
-Identifying Key Drivers: Use machine learning models to identify the key drivers of performance and risk.
-
-Risk and Return Frontiers: Use machine learning models to simulate the risk and return frontiers for different portfolios and strategies.
-
-
--------------------------------------------------------------------------------
-
-Roadmap
-
-Finalize the feature engineering script.
-Create the visual identity mapping dictionary for NomeInstituicao.
-Develop Power BI dashboard.
-Build Streamlit app and embed the Power BI dashboard.
-Publish the Streamlit app online.
-Add newsletter integration to the web app.
-
-
--------------------------------------------------------------------------------
+____________________________________________________________________
 
 Contact
 
 For inquiries, suggestions, or collaboration opportunities, feel free to reach out at:
 Email: iaffonso@integrationconsulting.com
+Linkedin: www.linkedin.com/in/iago-affonso-82109489/
