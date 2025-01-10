@@ -1,0 +1,103 @@
+.
+├── Dockerfile
+├── docker-compose.yml
+├── README.md
+├── api
+│   ├── __init__.py
+│   └── simple.py
+├── bacen_insights.egg-info
+│   ├── PKG-INFO
+│   ├── SOURCES.txt
+│   ├── dependency_links.txt
+│   ├── requires.txt
+│   └── top_level.txt
+├── data
+│   ├── consolidated_cleaned.csv
+│   ├── consolidated_institutions.json
+│   ├── consolidated_reports.csv
+│   ├── cred_pf.csv
+│   ├── cred_pj.csv
+│   ├── credit_data.csv
+│   ├── data_raw_reports
+│   │   ├── data_201303_Tipo2_RelatorioT.csv
+│   │   ├── data_201306_Tipo2_RelatorioT.csv
+│   │   ├── data_201309_Tipo2_RelatorioT.csv
+│   │   ├── data_201312_Tipo2_RelatorioT.csv
+│   │   ├── data_201403_Tipo2_RelatorioT.csv
+│   │   ├── data_201406_Tipo2_RelatorioT.csv
+│   │   ├── data_201409_Tipo2_RelatorioT.csv
+│   │   ├── data_201412_Tipo2_RelatorioT.csv
+│   │   ├── data_201503_Tipo2_RelatorioT.csv
+│   │   ├── data_201506_Tipo2_RelatorioT.csv
+│   │   ├── data_201509_Tipo2_RelatorioT.csv
+│   │   ├── data_201512_Tipo2_RelatorioT.csv
+│   │   ├── data_201603_Tipo2_RelatorioT.csv
+│   │   ├── data_201606_Tipo2_RelatorioT.csv
+│   │   ├── data_201609_Tipo2_RelatorioT.csv
+│   │   ├── data_201612_Tipo2_RelatorioT.csv
+│   │   ├── data_201703_Tipo2_RelatorioT.csv
+│   │   ├── data_201706_Tipo2_RelatorioT.csv
+│   │   ├── data_201709_Tipo2_RelatorioT.csv
+│   │   ├── data_201712_Tipo2_RelatorioT.csv
+│   │   ├── data_201803_Tipo2_RelatorioT.csv
+│   │   ├── data_201806_Tipo2_RelatorioT.csv
+│   │   ├── data_201809_Tipo2_RelatorioT.csv
+│   │   ├── data_201812_Tipo2_RelatorioT.csv
+│   │   ├── data_201903_Tipo2_RelatorioT.csv
+│   │   ├── data_201906_Tipo2_RelatorioT.csv
+│   │   ├── data_201909_Tipo2_RelatorioT.csv
+│   │   ├── data_201912_Tipo2_RelatorioT.csv
+│   │   ├── data_202003_Tipo2_RelatorioT.csv
+│   │   ├── data_202006_Tipo2_RelatorioT.csv
+│   │   ├── data_202009_Tipo2_RelatorioT.csv
+│   │   ├── data_202012_Tipo2_RelatorioT.csv
+│   │   ├── data_202103_Tipo2_RelatorioT.csv
+│   │   ├── data_202106_Tipo2_RelatorioT.csv
+│   │   ├── data_202109_Tipo2_RelatorioT.csv
+│   │   ├── data_202112_Tipo2_RelatorioT.csv
+│   │   ├── data_202203_Tipo2_RelatorioT.csv
+│   │   ├── data_202206_Tipo2_RelatorioT.csv
+│   │   ├── data_202209_Tipo2_RelatorioT.csv
+│   │   ├── data_202212_Tipo2_RelatorioT.csv
+│   │   ├── data_202303_Tipo2_RelatorioT.csv
+│   │   ├── data_202306_Tipo2_RelatorioT.csv
+│   │   ├── data_202309_Tipo2_RelatorioT.csv
+│   │   ├── data_202312_Tipo2_RelatorioT.csv
+│   │   ├── data_202403_Tipo2_RelatorioT.csv
+│   │   ├── data_202406_Tipo2_RelatorioT.csv
+│   │   ├── data_202409_Tipo2_RelatorioT.csv
+│   │   └── download.log
+│   ├── financial_metrics.csv
+│   ├── financial_metrics_processed.csv
+│   └── market_metrics.csv
+├── diretory structure.txt
+├── fix.txt
+├── notebooks
+│   ├── EDA.ipynb
+│   ├── discovery.ipynb
+│   ├── etl.ipynb
+│   └── financial_metrics_final.ipynb
+├── project_structure.txt
+├── requirements.txt
+├── scripts
+│   ├── __init__.py
+│   ├── etl.py
+│   ├── fetch_data.py
+│   ├── plotting.py
+│   └── plotting_financial_waterfall.py
+├── setup.py
+└── streamlit_app
+    ├── Intro.py
+    ├── data
+    │   ├── institutions_name_list.csv
+    │   ├── metric_names.csv
+    │   └── suggestions.csv
+    └── pages
+        ├── 1_Market_Share_📊.py
+        ├── 2_Share_por_Linha_Crédito💰.py
+        ├── 3_Carteira_Credito_IFs💳.py
+        ├── 4_DREs📑.py
+        ├── 5_Series_Temporais_📈.py
+        └── 99_Benchmarks_🏗️.py
+
+11 directories, 110 files

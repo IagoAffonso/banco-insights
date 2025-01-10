@@ -1,0 +1,7 @@
+[theme]
+base="light"
+primaryColor="#800020"  # Burgundy
+backgroundColor="#FFFFFF"  # White main background
+secondaryBackgroundColor="#F0F2F6"  # Light grey for sidebar/cards
+textColor="#3C3C3C"  # Dark grey for text
+font="sans serif"
