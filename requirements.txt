@@ -5,32 +5,34 @@
 
 
 # API dependencies
-fastapi>=0.115.5        # FastAPI framework for building APIs
-uvicorn>=0.32.1        # ASGI server implementation
-pydantic>=1.9.2        # Data validation using Python type annotations
-starlette>=0.41.3      # Web framework required by FastAPI
+fastapi==0.115.5        # FastAPI framework for building APIs
+uvicorn==0.32.1        # ASGI server implementation
+pydantic==1.9.2        # Data validation using Python type annotations
+starlette==0.41.3      # Web framework required by FastAPI
 
 # Data processing and visualization
 
 
-pandas>=2.2.3          # Data manipulation and analysis
-numpy>=1.26.4          # Required by pandas for numerical operations
-plotly>=5.9.0          # Interactive plotting library
-pandas-gbq>=0.17.9     # Google BigQuery integration for pandas
+pandas==2.2.3          # Data manipulation and analysis
+numpy==1.26.4          # Required by pandas for numerical operations
+plotly==5.9.0          # Interactive plotting library
+pandas-gbq==0.17.9     # Google BigQuery integration for pandas
 
 # Data fetching and authentication
-requests>=2.32.3       # HTTP library for API requests
-requests-oauthlib>=1.3.1  # OAuth library for requests
-python-dateutil>=2.8.2    # Extensions to the standard datetime module
+requests==2.32.3       # HTTP library for API requests
+requests-oauthlib==1.3.1  # OAuth library for requests
+python-dateutil==2.8.2    # Extensions to the standard datetime module
 
 # Streamlit
-streamlit>=1.25.0
+streamlit==1.41.1
+
+
 
 # GCP
 
-google-cloud-storage>=2.14.0
-fsspec>=2023.9.0
-gcsfs>=2023.9.0
+google-cloud-storage==2.14.0
+fsspec==2023.9.0
+gcsfs==2023.9.0
 
 
 # Note: These are exact versions that are currently working in the development environment.
